@@ -1,0 +1,188 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: "Segoe Print", serif;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  p:lang(en) {color: fuchsia;}
+  
+  .container {
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .item {
+    margin: 7px;
+    
+  }
+
+  .a:link {
+    color: #0000d0; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */ 
+   }
+   .a:hover {
+    background: #786b59; /* Цвет фона под ссылкой */ 
+    color:blueviolet; /* Цвет ссылки */ 
+   } 
+  
+   ul li {
+    color: black;
+  }
+  
+  ul li:first-child {
+    color: teal;
+    font-weight: bold;
+  }
+
+  ul li:last-child {
+    color: teal;
+    font-weight: bold;
+  }
+
+  /*INDEX*/
+
+.page-header {
+    width: 100%;
+    height: 650px;
+  
+    align-items: start;
+    background-image: url("../img/makeevka.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-nav{
+
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(50, 51, 50);
+}
+
+.main-nav-item{
+
+    float: left;
+    width:200px; 
+    margin:0 auto;
+    display:block;
+    font-family: "Segoe Print", fantasy;
+    font-size: 18px;
+    
+}
+
+.nav-item-link{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar_container li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+.navbar_container li a:hover {
+  
+    background-color: #111;
+
+} 
+.nav-bar_container:active {
+    background-color: red;
+}
+
+
+
+.img_title {
+  font-size: 24px;
+  color: rgb(206, 59, 103);
+}
+
+.landing_logo {
+    z-index: 2;
+    color: #ebdbdb;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Segoe Print", serif;
+  }
+
+#main_landing_logo {
+    font-size: 70px;
+  }
+
+
+ /*History*/
+
+  .header_text {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+
+  .history_header_title{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Segoe Print", serif;
+  }
+  .history_header_title::after,
+  .history_header_title::before {
+    content: " ••• ";
+  }
+
+  .teal{
+    color: rgb(0,128,128);
+    font-size: 20px;
+  }
+
+  .col-4
+  {
+      
+      width: 100%;
+      margin: 0;
+      margin-bottom: 30px;
+      padding-right: 15px;
+      padding-left: 15px;
+      text-align: center;
+      
+  }
+
+ /*Feedback*/
+  .fedb{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+.contacts-link{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+.fedb:hover{
+  background-color: blueviolet;
+}
+.h4{
+  text-align: center;
+}
+.positioned {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+
+
